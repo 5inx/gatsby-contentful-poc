@@ -1,0 +1,58 @@
+.navSpacing {
+  text-align: center;
+}
+
+.listSpacing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  margin-left: -40px;
+  border-spacing: 3px 0;
+}
+
+.menuItem a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 0;
+}
+.navBtn {  
+  transition: background-color .25s ease-in;
+  height: 50px;
+  background: #ff0025;
+  color: #fff;
+  border: none;
+  width: 100px;
+  border-left: 0;
+}
+
+.subMenu {
+  display: none;
+}
+
+.subNavListSpacing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: -40px;
+  text-decoration: none;
+  border-spacing: 3px 0;
+}
+
+.MenuBarOne {
+  width: 30%;
+  display: table-cell;
+  background: #ff0025;
+}
+
+.menuBarOne {
+  display: table-cell;
+  width: 100%;
+  background: #ff0025;
+}
